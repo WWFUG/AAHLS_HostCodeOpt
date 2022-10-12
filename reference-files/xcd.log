@@ -1,0 +1,422 @@
+Wed Oct 12 19:42:58 2022: Running xcd server. This server was built by gradle.
+Wed Oct 12 19:42:58 2022: Server was asked to start on port: '39349'
+Wed Oct 12 19:42:58 2022: Server is using token UUID: '11fdd9be-d560-4ab5-8dd2-f07279226e33'
+Wed Oct 12 19:42:58 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Wed Oct 12 19:42:58 2022: Attempting to start server on port '39349'
+Wed Oct 12 19:42:58 2022: XCD main fifo: created main fifo '/tmp/xcdmain11fdd9be-d560-4ab5-8dd2-f07279226e33', fd read = 13
+Wed Oct 12 19:42:58 2022: Running Dispatch Server
+Wed Oct 12 19:42:58 2022: Version 2.2.0
+Wed Oct 12 19:43:08 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 19:43:08 2022: Starting Socket connection
+Wed Oct 12 19:43:08 2022: EXCHANGE_TOKEN received, server token: 11fdd9be-d560-4ab5-8dd2-f07279226e33, passed token: 11fdd9be-d560-4ab5-8dd2-f07279226e33
+Wed Oct 12 19:43:08 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Wed Oct 12 19:43:08 2022: SESSION_MGR: creating session with session uuid: 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:08 2022: KERNEL_SVC: creating session with uuid: 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:08 2022: GUIDANCE_SMGR: creating guidance session with uuid: 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:08 2022: SYSTEM_DIAGRAM: creating session with uuid: 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:09 2022: SESSION_MGR: closing session for UUID 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:09 2022: KERNEL_SVC: closing session for UUID 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:09 2022: GUIDANCE_SMGR: closing session for UUID 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:09 2022: SYSTEM_DIAGRAM: closing session for UUID 'f5b345a3-e28b-44b0-b073-a5b71c7f03b6' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:43:09 2022: STOP_SERVER received, server token: 11fdd9be-d560-4ab5-8dd2-f07279226e33, passed token: 11fdd9be-d560-4ab5-8dd2-f07279226e33
+Wed Oct 12 19:43:09 2022: Socket received request to stop server.
+Wed Oct 12 19:43:09 2022: Dispatch Server: do_await_stop
+Wed Oct 12 19:43:09 2022: Dispatch Server: stopping mainFifo_
+Wed Oct 12 19:43:09 2022: XCD main fifo: Stopping
+Wed Oct 12 19:43:09 2022: XCD main fifo: do_read error code: Operation canceled
+Wed Oct 12 19:43:09 2022: XCD main fifo: bytes_transferred: 0
+Wed Oct 12 19:43:09 2022: SERVER: destructor for server bound to port 39349
+Wed Oct 12 19:43:09 2022: XCD main fifo: Good unlink of /tmp/xcdmain11fdd9be-d560-4ab5-8dd2-f07279226e33
+Wed Oct 12 19:43:09 2022: Server exiting with status 0.
+Wed Oct 12 19:43:09 2022: Closing log file.
+Wed Oct 12 19:46:26 2022: Running xcd server. This server was built by gradle.
+Wed Oct 12 19:46:26 2022: Server was asked to start on port: '34643'
+Wed Oct 12 19:46:26 2022: Server is using token UUID: '0841d6ba-5708-4e25-9c94-0da5c49d73bc'
+Wed Oct 12 19:46:26 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Wed Oct 12 19:46:26 2022: Attempting to start server on port '34643'
+Wed Oct 12 19:46:26 2022: XCD main fifo: created main fifo '/tmp/xcdmain0841d6ba-5708-4e25-9c94-0da5c49d73bc', fd read = 13
+Wed Oct 12 19:46:26 2022: Running Dispatch Server
+Wed Oct 12 19:46:26 2022: Version 2.2.0
+Wed Oct 12 19:46:35 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 19:46:35 2022: Starting Socket connection
+Wed Oct 12 19:46:35 2022: EXCHANGE_TOKEN received, server token: 0841d6ba-5708-4e25-9c94-0da5c49d73bc, passed token: 0841d6ba-5708-4e25-9c94-0da5c49d73bc
+Wed Oct 12 19:46:35 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Wed Oct 12 19:46:35 2022: SESSION_MGR: creating session with session uuid: '5c4f0f13-9235-427d-83d5-f6063da62faf' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:35 2022: KERNEL_SVC: creating session with uuid: '5c4f0f13-9235-427d-83d5-f6063da62faf' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:35 2022: GUIDANCE_SMGR: creating guidance session with uuid: '5c4f0f13-9235-427d-83d5-f6063da62faf' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:35 2022: SYSTEM_DIAGRAM: creating session with uuid: '5c4f0f13-9235-427d-83d5-f6063da62faf' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:36 2022: SESSION_MGR: closing session for UUID '5c4f0f13-9235-427d-83d5-f6063da62faf' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:36 2022: KERNEL_SVC: closing session for UUID '5c4f0f13-9235-427d-83d5-f6063da62faf' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:36 2022: GUIDANCE_SMGR: closing session for UUID '5c4f0f13-9235-427d-83d5-f6063da62faf' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:36 2022: SYSTEM_DIAGRAM: closing session for UUID '5c4f0f13-9235-427d-83d5-f6063da62faf' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:46:36 2022: STOP_SERVER received, server token: 0841d6ba-5708-4e25-9c94-0da5c49d73bc, passed token: 0841d6ba-5708-4e25-9c94-0da5c49d73bc
+Wed Oct 12 19:46:36 2022: Socket received request to stop server.
+Wed Oct 12 19:46:36 2022: Dispatch Server: do_await_stop
+Wed Oct 12 19:46:36 2022: Dispatch Server: stopping mainFifo_
+Wed Oct 12 19:46:36 2022: XCD main fifo: Stopping
+Wed Oct 12 19:46:36 2022: XCD main fifo: do_read error code: Operation canceled
+Wed Oct 12 19:46:36 2022: XCD main fifo: bytes_transferred: 0
+Wed Oct 12 19:46:36 2022: SERVER: destructor for server bound to port 34643
+Wed Oct 12 19:46:36 2022: XCD main fifo: Good unlink of /tmp/xcdmain0841d6ba-5708-4e25-9c94-0da5c49d73bc
+Wed Oct 12 19:46:36 2022: Server exiting with status 0.
+Wed Oct 12 19:46:36 2022: Closing log file.
+Wed Oct 12 19:46:55 2022: Running xcd server. This server was built by gradle.
+Wed Oct 12 19:46:55 2022: Server was asked to start on port: '45363'
+Wed Oct 12 19:46:55 2022: Server is using token UUID: 'd04eb4d3-9ee7-409f-8245-23470c6fb1df'
+Wed Oct 12 19:46:55 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Wed Oct 12 19:46:55 2022: Attempting to start server on port '45363'
+Wed Oct 12 19:46:55 2022: XCD main fifo: created main fifo '/tmp/xcdmaind04eb4d3-9ee7-409f-8245-23470c6fb1df', fd read = 13
+Wed Oct 12 19:46:55 2022: Running Dispatch Server
+Wed Oct 12 19:46:55 2022: Version 2.2.0
+Wed Oct 12 19:47:04 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 19:47:04 2022: Starting Socket connection
+Wed Oct 12 19:47:04 2022: EXCHANGE_TOKEN received, server token: d04eb4d3-9ee7-409f-8245-23470c6fb1df, passed token: d04eb4d3-9ee7-409f-8245-23470c6fb1df
+Wed Oct 12 19:47:04 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Wed Oct 12 19:47:04 2022: SESSION_MGR: creating session with session uuid: '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:04 2022: KERNEL_SVC: creating session with uuid: '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:04 2022: GUIDANCE_SMGR: creating guidance session with uuid: '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:04 2022: SYSTEM_DIAGRAM: creating session with uuid: '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' and name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:45 2022: SESSION_MGR: closing session for UUID '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:45 2022: KERNEL_SVC: closing session for UUID '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:45 2022: GUIDANCE_SMGR: closing session for UUID '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:45 2022: SYSTEM_DIAGRAM: closing session for UUID '6fbfdadf-e3af-4ccd-8420-d1c1f0933b90' with name 'v++_compile_pass.hw'
+Wed Oct 12 19:47:45 2022: STOP_SERVER received, server token: d04eb4d3-9ee7-409f-8245-23470c6fb1df, passed token: d04eb4d3-9ee7-409f-8245-23470c6fb1df
+Wed Oct 12 19:47:45 2022: Socket received request to stop server.
+Wed Oct 12 19:47:45 2022: Dispatch Server: do_await_stop
+Wed Oct 12 19:47:45 2022: Dispatch Server: stopping mainFifo_
+Wed Oct 12 19:47:45 2022: XCD main fifo: Stopping
+Wed Oct 12 19:47:45 2022: XCD main fifo: do_read error code: Operation canceled
+Wed Oct 12 19:47:45 2022: XCD main fifo: bytes_transferred: 0
+Wed Oct 12 19:47:45 2022: SERVER: destructor for server bound to port 45363
+Wed Oct 12 19:47:45 2022: XCD main fifo: Good unlink of /tmp/xcdmaind04eb4d3-9ee7-409f-8245-23470c6fb1df
+Wed Oct 12 19:47:45 2022: Server exiting with status 0.
+Wed Oct 12 19:47:45 2022: Closing log file.
+Wed Oct 12 19:47:47 2022: Running xcd server. This server was built by gradle.
+Wed Oct 12 19:47:47 2022: Server was asked to start on port: '39347'
+Wed Oct 12 19:47:47 2022: Server is using token UUID: 'd7a0184f-1342-48bd-b003-dcc04303e14b'
+Wed Oct 12 19:47:47 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Wed Oct 12 19:47:47 2022: Attempting to start server on port '39347'
+Wed Oct 12 19:47:47 2022: XCD main fifo: created main fifo '/tmp/xcdmaind7a0184f-1342-48bd-b003-dcc04303e14b', fd read = 13
+Wed Oct 12 19:47:47 2022: Running Dispatch Server
+Wed Oct 12 19:47:47 2022: Version 2.2.0
+Wed Oct 12 19:47:56 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 19:47:56 2022: Starting Socket connection
+Wed Oct 12 19:47:56 2022: EXCHANGE_TOKEN received, server token: d7a0184f-1342-48bd-b003-dcc04303e14b, passed token: d7a0184f-1342-48bd-b003-dcc04303e14b
+Wed Oct 12 19:47:57 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Wed Oct 12 19:47:57 2022: SESSION_MGR: creating session with session uuid: '6f238490-37f2-44ba-82a4-4f51756d0cdc' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:47:57 2022: KERNEL_SVC: creating session with uuid: '6f238490-37f2-44ba-82a4-4f51756d0cdc' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:47:57 2022: GUIDANCE_SMGR: creating guidance session with uuid: '6f238490-37f2-44ba-82a4-4f51756d0cdc' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:47:57 2022: SYSTEM_DIAGRAM: creating session with uuid: '6f238490-37f2-44ba-82a4-4f51756d0cdc' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:48:07 2022: SESSION_MGR: closing session for UUID '6f238490-37f2-44ba-82a4-4f51756d0cdc' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:48:07 2022: KERNEL_SVC: closing session for UUID '6f238490-37f2-44ba-82a4-4f51756d0cdc' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:48:07 2022: GUIDANCE_SMGR: closing session for UUID '6f238490-37f2-44ba-82a4-4f51756d0cdc' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:48:07 2022: SYSTEM_DIAGRAM: closing session for UUID '6f238490-37f2-44ba-82a4-4f51756d0cdc' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 19:48:07 2022: STOP_SERVER received, server token: d7a0184f-1342-48bd-b003-dcc04303e14b, passed token: d7a0184f-1342-48bd-b003-dcc04303e14b
+Wed Oct 12 19:48:07 2022: Socket received request to stop server.
+Wed Oct 12 19:48:07 2022: Dispatch Server: do_await_stop
+Wed Oct 12 19:48:07 2022: Dispatch Server: stopping mainFifo_
+Wed Oct 12 19:48:07 2022: XCD main fifo: Stopping
+Wed Oct 12 19:48:07 2022: XCD main fifo: do_read error code: Operation canceled
+Wed Oct 12 19:48:07 2022: XCD main fifo: bytes_transferred: 0
+Wed Oct 12 19:48:07 2022: SERVER: destructor for server bound to port 39347
+Wed Oct 12 19:48:07 2022: XCD main fifo: Good unlink of /tmp/xcdmaind7a0184f-1342-48bd-b003-dcc04303e14b
+Wed Oct 12 19:48:07 2022: Server exiting with status 0.
+Wed Oct 12 19:48:07 2022: Closing log file.
+Wed Oct 12 20:01:35 2022: Running xcd server. This server was built by gradle.
+Wed Oct 12 20:01:35 2022: Server was asked to start on port: '34243'
+Wed Oct 12 20:01:35 2022: Server is using token UUID: 'ae306fed-a2eb-47b9-a24e-91fbd58d41ef'
+Wed Oct 12 20:01:35 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Wed Oct 12 20:01:35 2022: Attempting to start server on port '34243'
+Wed Oct 12 20:01:35 2022: XCD main fifo: created main fifo '/tmp/xcdmainae306fed-a2eb-47b9-a24e-91fbd58d41ef', fd read = 13
+Wed Oct 12 20:01:35 2022: Running Dispatch Server
+Wed Oct 12 20:01:35 2022: Version 2.2.0
+Wed Oct 12 20:01:45 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:01:45 2022: Starting Socket connection
+Wed Oct 12 20:01:45 2022: EXCHANGE_TOKEN received, server token: ae306fed-a2eb-47b9-a24e-91fbd58d41ef, passed token: ae306fed-a2eb-47b9-a24e-91fbd58d41ef
+Wed Oct 12 20:01:45 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Wed Oct 12 20:01:45 2022: SESSION_MGR: creating session with session uuid: '935f299c-0daa-4909-aaa3-a589d555eca8' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:45 2022: KERNEL_SVC: creating session with uuid: '935f299c-0daa-4909-aaa3-a589d555eca8' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:45 2022: GUIDANCE_SMGR: creating guidance session with uuid: '935f299c-0daa-4909-aaa3-a589d555eca8' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:45 2022: SYSTEM_DIAGRAM: creating session with uuid: '935f299c-0daa-4909-aaa3-a589d555eca8' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:57 2022: SESSION_MGR: closing session for UUID '935f299c-0daa-4909-aaa3-a589d555eca8' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:57 2022: KERNEL_SVC: closing session for UUID '935f299c-0daa-4909-aaa3-a589d555eca8' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:57 2022: GUIDANCE_SMGR: closing session for UUID '935f299c-0daa-4909-aaa3-a589d555eca8' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:57 2022: SYSTEM_DIAGRAM: closing session for UUID '935f299c-0daa-4909-aaa3-a589d555eca8' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:01:57 2022: STOP_SERVER received, server token: ae306fed-a2eb-47b9-a24e-91fbd58d41ef, passed token: ae306fed-a2eb-47b9-a24e-91fbd58d41ef
+Wed Oct 12 20:01:57 2022: Socket received request to stop server.
+Wed Oct 12 20:01:57 2022: Dispatch Server: do_await_stop
+Wed Oct 12 20:01:57 2022: Dispatch Server: stopping mainFifo_
+Wed Oct 12 20:01:57 2022: XCD main fifo: Stopping
+Wed Oct 12 20:01:57 2022: XCD main fifo: do_read error code: Operation canceled
+Wed Oct 12 20:01:57 2022: XCD main fifo: bytes_transferred: 0
+Wed Oct 12 20:01:57 2022: SERVER: destructor for server bound to port 34243
+Wed Oct 12 20:01:57 2022: XCD main fifo: Good unlink of /tmp/xcdmainae306fed-a2eb-47b9-a24e-91fbd58d41ef
+Wed Oct 12 20:01:57 2022: Server exiting with status 0.
+Wed Oct 12 20:01:57 2022: Closing log file.
+Wed Oct 12 20:05:10 2022: Running xcd server. This server was built by gradle.
+Wed Oct 12 20:05:10 2022: Server was asked to start on port: '34921'
+Wed Oct 12 20:05:10 2022: Server is using token UUID: '10132d76-8e7e-430e-855f-6fe9085fd8ca'
+Wed Oct 12 20:05:10 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Wed Oct 12 20:05:10 2022: Attempting to start server on port '34921'
+Wed Oct 12 20:05:10 2022: XCD main fifo: created main fifo '/tmp/xcdmain10132d76-8e7e-430e-855f-6fe9085fd8ca', fd read = 13
+Wed Oct 12 20:05:10 2022: Running Dispatch Server
+Wed Oct 12 20:05:10 2022: Version 2.2.0
+Wed Oct 12 20:05:20 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:05:20 2022: Starting Socket connection
+Wed Oct 12 20:05:20 2022: EXCHANGE_TOKEN received, server token: 10132d76-8e7e-430e-855f-6fe9085fd8ca, passed token: 10132d76-8e7e-430e-855f-6fe9085fd8ca
+Wed Oct 12 20:05:20 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Wed Oct 12 20:05:20 2022: SESSION_MGR: creating session with session uuid: 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:05:20 2022: KERNEL_SVC: creating session with uuid: 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:05:20 2022: GUIDANCE_SMGR: creating guidance session with uuid: 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:05:20 2022: SYSTEM_DIAGRAM: creating session with uuid: 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' and name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:05:37 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:05:37 2022: Starting Socket connection
+Wed Oct 12 20:05:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:05:46 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:05 2022: Starting Socket connection
+Wed Oct 12 20:08:49 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:49 2022: Starting Socket connection
+Wed Oct 12 20:08:49 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:49 2022: Starting Socket connection
+Wed Oct 12 20:08:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:52 2022: Starting Socket connection
+Wed Oct 12 20:08:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:52 2022: Starting Socket connection
+Wed Oct 12 20:08:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:52 2022: Starting Socket connection
+Wed Oct 12 20:08:53 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:53 2022: Starting Socket connection
+Wed Oct 12 20:08:56 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:08:56 2022: Starting Socket connection
+Wed Oct 12 20:09:05 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:05 2022: Starting Socket connection
+Wed Oct 12 20:09:41 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:41 2022: Starting Socket connection
+Wed Oct 12 20:09:41 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:41 2022: Starting Socket connection
+Wed Oct 12 20:09:41 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:41 2022: Starting Socket connection
+Wed Oct 12 20:09:42 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:42 2022: Starting Socket connection
+Wed Oct 12 20:09:54 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:54 2022: Starting Socket connection
+Wed Oct 12 20:09:54 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:54 2022: Starting Socket connection
+Wed Oct 12 20:09:54 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:54 2022: Starting Socket connection
+Wed Oct 12 20:09:54 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:09:54 2022: Starting Socket connection
+Wed Oct 12 20:10:06 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:06 2022: Starting Socket connection
+Wed Oct 12 20:10:06 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:06 2022: Starting Socket connection
+Wed Oct 12 20:10:07 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:07 2022: Starting Socket connection
+Wed Oct 12 20:10:24 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:24 2022: Starting Socket connection
+Wed Oct 12 20:10:33 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:33 2022: Starting Socket connection
+Wed Oct 12 20:10:40 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:40 2022: Starting Socket connection
+Wed Oct 12 20:10:43 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:43 2022: Starting Socket connection
+Wed Oct 12 20:10:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:52 2022: Starting Socket connection
+Wed Oct 12 20:10:53 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:10:53 2022: Starting Socket connection
+Wed Oct 12 20:11:00 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:00 2022: Starting Socket connection
+Wed Oct 12 20:11:13 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:13 2022: Starting Socket connection
+Wed Oct 12 20:11:16 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:16 2022: Starting Socket connection
+Wed Oct 12 20:11:21 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:21 2022: Starting Socket connection
+Wed Oct 12 20:11:22 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:22 2022: Starting Socket connection
+Wed Oct 12 20:11:30 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:30 2022: Starting Socket connection
+Wed Oct 12 20:11:39 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:39 2022: Starting Socket connection
+Wed Oct 12 20:11:39 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:39 2022: Starting Socket connection
+Wed Oct 12 20:11:41 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:41 2022: Starting Socket connection
+Wed Oct 12 20:11:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:46 2022: Starting Socket connection
+Wed Oct 12 20:11:54 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:11:54 2022: Starting Socket connection
+Wed Oct 12 20:12:12 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:12 2022: Starting Socket connection
+Wed Oct 12 20:12:12 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:12 2022: Starting Socket connection
+Wed Oct 12 20:12:16 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:16 2022: Starting Socket connection
+Wed Oct 12 20:12:24 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:24 2022: Starting Socket connection
+Wed Oct 12 20:12:24 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:24 2022: Starting Socket connection
+Wed Oct 12 20:12:25 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:25 2022: Starting Socket connection
+Wed Oct 12 20:12:28 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:28 2022: Starting Socket connection
+Wed Oct 12 20:12:29 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:29 2022: Starting Socket connection
+Wed Oct 12 20:12:35 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:35 2022: Starting Socket connection
+Wed Oct 12 20:12:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:36 2022: Starting Socket connection
+Wed Oct 12 20:12:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:36 2022: Starting Socket connection
+Wed Oct 12 20:12:40 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:40 2022: Starting Socket connection
+Wed Oct 12 20:12:40 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:40 2022: Starting Socket connection
+Wed Oct 12 20:12:40 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:40 2022: Starting Socket connection
+Wed Oct 12 20:12:47 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:47 2022: Starting Socket connection
+Wed Oct 12 20:12:48 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:48 2022: Starting Socket connection
+Wed Oct 12 20:12:48 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:48 2022: Starting Socket connection
+Wed Oct 12 20:12:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:52 2022: Starting Socket connection
+Wed Oct 12 20:12:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:52 2022: Starting Socket connection
+Wed Oct 12 20:12:52 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:12:52 2022: Starting Socket connection
+Wed Oct 12 20:13:00 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:00 2022: Starting Socket connection
+Wed Oct 12 20:13:16 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:16 2022: Starting Socket connection
+Wed Oct 12 20:13:33 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:33 2022: Starting Socket connection
+Wed Oct 12 20:13:37 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:37 2022: Starting Socket connection
+Wed Oct 12 20:13:37 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:37 2022: Starting Socket connection
+Wed Oct 12 20:13:37 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:37 2022: Starting Socket connection
+Wed Oct 12 20:13:37 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:37 2022: Starting Socket connection
+Wed Oct 12 20:13:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:46 2022: Starting Socket connection
+Wed Oct 12 20:13:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:46 2022: Starting Socket connection
+Wed Oct 12 20:13:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:46 2022: Starting Socket connection
+Wed Oct 12 20:13:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:46 2022: Starting Socket connection
+Wed Oct 12 20:13:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:46 2022: Starting Socket connection
+Wed Oct 12 20:13:50 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:50 2022: Starting Socket connection
+Wed Oct 12 20:13:58 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:13:58 2022: Starting Socket connection
+Wed Oct 12 20:14:10 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:10 2022: Starting Socket connection
+Wed Oct 12 20:14:23 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:23 2022: Starting Socket connection
+Wed Oct 12 20:14:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:36 2022: Starting Socket connection
+Wed Oct 12 20:14:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:36 2022: Starting Socket connection
+Wed Oct 12 20:14:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:36 2022: Starting Socket connection
+Wed Oct 12 20:14:37 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:37 2022: Starting Socket connection
+Wed Oct 12 20:14:40 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:40 2022: Starting Socket connection
+Wed Oct 12 20:14:44 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:44 2022: Starting Socket connection
+Wed Oct 12 20:14:44 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:14:44 2022: Starting Socket connection
+Wed Oct 12 20:15:26 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:26 2022: Starting Socket connection
+Wed Oct 12 20:15:26 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:26 2022: Starting Socket connection
+Wed Oct 12 20:15:26 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:26 2022: Starting Socket connection
+Wed Oct 12 20:15:30 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:30 2022: Starting Socket connection
+Wed Oct 12 20:15:32 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:32 2022: Starting Socket connection
+Wed Oct 12 20:15:32 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:32 2022: Starting Socket connection
+Wed Oct 12 20:15:35 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:35 2022: Starting Socket connection
+Wed Oct 12 20:15:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:36 2022: Starting Socket connection
+Wed Oct 12 20:15:38 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:38 2022: Starting Socket connection
+Wed Oct 12 20:15:38 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:38 2022: Starting Socket connection
+Wed Oct 12 20:15:38 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:38 2022: Starting Socket connection
+Wed Oct 12 20:15:45 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:45 2022: Starting Socket connection
+Wed Oct 12 20:15:45 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:45 2022: Starting Socket connection
+Wed Oct 12 20:15:45 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:45 2022: Starting Socket connection
+Wed Oct 12 20:15:46 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:15:46 2022: Starting Socket connection
+Wed Oct 12 20:16:27 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:27 2022: Starting Socket connection
+Wed Oct 12 20:16:27 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:27 2022: Starting Socket connection
+Wed Oct 12 20:16:27 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:27 2022: Starting Socket connection
+Wed Oct 12 20:16:28 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:28 2022: Starting Socket connection
+Wed Oct 12 20:16:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:36 2022: Starting Socket connection
+Wed Oct 12 20:16:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:36 2022: Starting Socket connection
+Wed Oct 12 20:16:36 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:36 2022: Starting Socket connection
+Wed Oct 12 20:16:39 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:39 2022: Starting Socket connection
+Wed Oct 12 20:16:39 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:39 2022: Starting Socket connection
+Wed Oct 12 20:16:49 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:16:49 2022: Starting Socket connection
+Wed Oct 12 20:17:23 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:17:23 2022: Starting Socket connection
+Wed Oct 12 20:17:28 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:17:28 2022: Starting Socket connection
+Wed Oct 12 20:18:01 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:18:01 2022: Starting Socket connection
+Wed Oct 12 20:18:50 2022: Dispatch Server: Accepted socket connection from client
+Wed Oct 12 20:18:50 2022: Starting Socket connection
+Wed Oct 12 20:46:45 2022: SESSION_MGR: closing session for UUID 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:46:45 2022: KERNEL_SVC: closing session for UUID 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:46:45 2022: GUIDANCE_SMGR: closing session for UUID 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:46:45 2022: SYSTEM_DIAGRAM: closing session for UUID 'eafaf885-0a81-4f08-a6c1-1d06ceea337e' with name 'v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1'
+Wed Oct 12 20:46:45 2022: STOP_SERVER received, server token: 10132d76-8e7e-430e-855f-6fe9085fd8ca, passed token: 10132d76-8e7e-430e-855f-6fe9085fd8ca
+Wed Oct 12 20:46:45 2022: Socket received request to stop server.
+Wed Oct 12 20:46:45 2022: Dispatch Server: do_await_stop
+Wed Oct 12 20:46:45 2022: Dispatch Server: stopping mainFifo_
+Wed Oct 12 20:46:45 2022: XCD main fifo: Stopping
+Wed Oct 12 20:46:45 2022: XCD main fifo: do_read error code: Operation canceled
+Wed Oct 12 20:46:45 2022: XCD main fifo: bytes_transferred: 0
+Wed Oct 12 20:46:45 2022: SERVER: destructor for server bound to port 34921
+Wed Oct 12 20:46:45 2022: XCD main fifo: Good unlink of /tmp/xcdmain10132d76-8e7e-430e-855f-6fe9085fd8ca
+Wed Oct 12 20:46:45 2022: Server exiting with status 0.
+Wed Oct 12 20:46:45 2022: Closing log file.

@@ -1,0 +1,44 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/reports/link
+	Log files: /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/xclbin/pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1.xclbin.link_summary, at Wed Oct 12 19:47:57 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Wed Oct 12 19:47:57 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/reports/link/v++_link_pass.hw.xilinx_u50_gen3x16_xdma_5_202210_1_guidance.html', at Wed Oct 12 19:47:58 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.1
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_5_202210_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [19:48:00] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/xclbin/pass.hw.xo -keep --config /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1/xilinx_u50_gen3x16_xdma_5_202210_1.xpfm --target hw --output_dir /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/int --temp_dir /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Wed Oct 12 19:48:01 2022
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/xclbin/pass.hw.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [19:48:02] build_xd_ip_db started: /opt/Xilinx/Vitis/2022.1/bin/build_xd_ip_db -ip_search 0  -sds-pf /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/hw.hpfm -clkid 0 -ip /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/iprepo/xilinx_com_hls_pass_1_0,pass -o /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [19:48:06] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2270.891 ; gain = 0.000 ; free physical = 27093 ; free virtual = 76493
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [19:48:06] cfgen started: /opt/Xilinx/Vitis/2022.1/bin/cfgen  -nk pass:1 -sp pass_1.m_axi_p0:DDR[0] -sp pass_1.m_axi_p1:DDR[1] -dmclkid 0 -r /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: pass, num: 1  {pass_1}
+INFO: [CFGEN 83-0] Port Specs: 
+INFO: [CFGEN 83-0]   kernel: pass_1, k_port: m_axi_p0, sptag: DDR[0]
+INFO: [CFGEN 83-0]   kernel: pass_1, k_port: m_axi_p1, sptag: DDR[1]
+ERROR: [CFGEN 83-2287] --sp tag applied with an invalid sp tag: DDR[0]
+ERROR: [CFGEN 83-2287] --sp tag applied with an invalid sp tag: DDR[1]
+ERROR: [CFGEN 83-2297] Please consult platforminfo <platform.xpfm path> for sptag information
+ERROR: [CFGEN 83-2298] Exiting due to previous error
+ERROR: [SYSTEM_LINK 82-36] [19:48:07] cfgen failed
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2270.891 ; gain = 0.000 ; free physical = 27094 ; free virtual = 76494
+ERROR: [SYSTEM_LINK 82-62] Error generating design file for /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml, command: /opt/Xilinx/Vitis/2022.1/bin/cfgen  -nk pass:1 -sp pass_1.m_axi_p0:DDR[0] -sp pass_1.m_axi_p1:DDR[1] -dmclkid 0 -r /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /mnt/HLSNAS/03.qVBgKh/HostCodeOpt/reference-files/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+ERROR: [SYSTEM_LINK 82-96] Error applying explicit connections to the system connectivity graph
+ERROR: [SYSTEM_LINK 82-79] Unable to create system connectivity graph
+INFO: [v++ 60-1442] [19:48:07] Run run_link: Step system_link: Failed
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2209.312 ; gain = 0.000 ; free physical = 27136 ; free virtual = 76536
+ERROR: [v++ 60-661] v++ link run 'run_link' failed
+ERROR: [v++ 60-626] Kernel link failed to complete
+ERROR: [v++ 60-703] Failed to finish linking
+INFO: [v++ 60-1653] Closing dispatch client.
