@@ -18,10 +18,10 @@ if len(sys.argv) != 2:
 
 out = open('results.csv', 'w')
 
-out.write('"Bytes per Transfer", "FPGA Throughput"')
+out.write('Bytes per Transfer, FPGA Throughput')
 out.write("\n")
 
-for i in range(8, 20):
+for i in range(8, 16):
     fields = {}
     buffersize = 1 << i
     print (" Running with argument %s transfers %s bytes" % (i, buffersize*512/8))

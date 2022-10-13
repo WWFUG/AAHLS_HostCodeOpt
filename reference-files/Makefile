@@ -69,7 +69,7 @@ bufRunSweep:
 	cp auxFiles/xrt.ini buf
 	cp auxFiles/run.py buf
 	cd buf; python ./run.py $(DSA)
-	more buf/summary.csv
+	more buf/results.csv
 	if hash gnuplot 2>/dev/null; then gnuplot -p -c auxFiles/plot.txt; fi;
 
 
