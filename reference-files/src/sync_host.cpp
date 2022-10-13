@@ -52,8 +52,13 @@ int main(int argc, char* argv[]) {
 
   // -- Execution -----------------------------------------------------------
   
+  int count = 0;
   for(unsigned int i=0; i < numBuffers; i++) {
-    tasks[i].run(api);
+    if(i < 3) {
+      tasks[i].run(api);
+    } else {
+      tasks[i].run(api, tasks[i-3].getDoneEv());
+    }
   }
   clFinish(api.getQueue());
   

@@ -1,0 +1,23 @@
+{
+    "schema_version": {
+        "major": "1",
+        "minor": "2",
+        "patch": "0"
+    },
+    "generation": {
+        "this_file": "\/mnt\/HLSNAS\/03.qVBgKh\/AAHLS_HostCodeOpt\/reference-files\/buf\/xrt.run_summary",
+        "source": "vp",
+        "PID": "975958",
+        "timestamp": "1665680138653"
+    },
+    "files": [
+        {
+            "name": "opencl_trace.csv",
+            "type": "VP_TRACE"
+        },
+        {
+            "name": "device_trace_0.csv",
+            "type": "VP_TRACE"
+        }
+    ]
+}

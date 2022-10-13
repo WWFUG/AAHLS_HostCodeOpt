@@ -5,5 +5,5 @@ set style line 1 \
     linetype 1 linewidth 2 \
     pointtype 7 pointsize 1.5
 
-plot "runBuf/results.csv" with linespoints linestyle 1
+plot "buf/results.csv" with linespoints linestyle 1
 

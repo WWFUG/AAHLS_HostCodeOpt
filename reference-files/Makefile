@@ -15,7 +15,7 @@ DEVICE := xilinx_u200_gen3x16_xdma_2_202110_1
 LAB	:= pipeline
 #BUILDIR	:= $(LAB)
 XCLBIN  := ./xclbin
-#DSA := $(call device2sandsa, $(DEVICE))
+DSA := $(call device2sandsa, $(DEVICE))
 
 CXX  := g++
 VPP := $(XILINX_VITIS)/bin/v++
@@ -68,8 +68,8 @@ endif
 bufRunSweep:
 	cp auxFiles/xrt.ini buf
 	cp auxFiles/run.py buf
-	cd buf; ./run.py $(DSA)
-	more buf/results.csv
+	cd buf; python ./run.py $(DSA)
+	more buf/summary.csv
 	if hash gnuplot 2>/dev/null; then gnuplot -p -c auxFiles/plot.txt; fi;
 
 

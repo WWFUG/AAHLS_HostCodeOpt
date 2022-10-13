@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
   // -- Common Parameters ---------------------------------------------------
 
   unsigned int numBuffers               = 10;
-  bool         oooQueue                 = false;
+  bool         oooQueue                 = true;
   unsigned int processDelay             = 1;
   unsigned int bufferSize               = 8 << 11;
 
